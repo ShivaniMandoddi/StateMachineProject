@@ -1043,6 +1043,14 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0.33962262
       objectReference: {fileID: 0}
+    - target: {fileID: 3523726435941233081, guid: 6478176b8cb434cba99100779c3a0ff2, type: 3}
+      propertyPath: m_RunSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523726435941233081, guid: 6478176b8cb434cba99100779c3a0ff2, type: 3}
+      propertyPath: m_WalkSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6478176b8cb434cba99100779c3a0ff2, type: 3}
 --- !u!1001 &547984618
@@ -1457,7 +1465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8503bcf607ea9674095fdf2757825954, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1457020088}
 --- !u!195 &786520893
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2492,6 +2500,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1133749475172054608, guid: a10844fe6a1264733abba2e2ec4578f6, type: 3}
   m_PrefabInstance: {fileID: 455244842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1457020088 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3523726435930200185, guid: 6478176b8cb434cba99100779c3a0ff2, type: 3}
+  m_PrefabInstance: {fileID: 547132884}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1489366230 stripped
 Transform:
